@@ -26,7 +26,7 @@ class CustomText(models.Model):
 
     @property
     def field(self):
-        return "A.A.R.V."
+        return "title"
 
 
 class HomePage(models.Model):
